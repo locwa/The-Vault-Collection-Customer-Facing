@@ -49,7 +49,7 @@
                 id="tspan22"
                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:2.64583px;stroke-width:20"
                 x="103.26257"
-                y="29.718964">COLLECTION</tspan></text><text
+                y="33">COLLECTION</tspan></text><text
             xml:space="preserve"
             transform="matrix(0.27846088,0,0,0.27846088,43.828483,6.8962946)"
             id="text1"
