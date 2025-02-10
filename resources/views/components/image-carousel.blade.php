@@ -5,7 +5,7 @@
     'photoExtension' => "png"
 ])
 
-<div class="mb-10 flex flex-col items-center" id="imagesContainer">
+<div class="mb-5 flex flex-col items-center" id="imagesContainer">
     <img id="carPhoto" class="h-[55vh] w-[90vw] flex justify-center" src="./storage/{{ $photoFileHeader . '0.'. $photoExtension }}" alt="{{ $carInfo }}">
     <div class="flex my-6 justify-between items-start w-[90vw]">
         @isset($heading)
