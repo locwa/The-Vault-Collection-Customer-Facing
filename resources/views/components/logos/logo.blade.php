@@ -1,6 +1,5 @@
 <svg
-    width="110mm"
-    height="19.200001mm"
+    {{ $attributes->merge(['class' => '']) }}
     viewBox="0 0 110 19.200001"
     version="1.1"
     id="svg1"
