@@ -21,4 +21,25 @@
 
     <hr class="border-black dark:border-gray-100 mx-32">
 
+    <div class="my-20 flex flex-col items-center">
+        <h1 class="text-5xl tracking-wider mb-20">FEATURED GALLERY</h1>
+        <div class="flex h-[75vh] w-full gap-10 justify-center">
+            <img src="./storage/home_photos/collage-0.webp" alt="car">
+            <div class="h-full flex gap-2">
+                <div class="flex gap-10 w-full">
+                    <div class="h-[70vh] w-[30vw]">
+                        <img class="h-3/5 w-full mb-10 object-cover" src="./storage/home_photos/collage-1.webp" alt="car">
+                        <img class="h-2/5 w-full object-cover" src="./storage/home_photos/collage-2.webp" alt="car">
+                    </div>
+                    <div class="h-[70vh]">
+                        <img class="h-3/5 w-full mb-10 object-cover" src="./storage/home_photos/collage-3.webp" alt="car">
+                        <img class="h-2/5 w-full object-cover" src="./storage/home_photos/collage-4.webp" alt="car">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="border-black dark:border-gray-100 mx-32">
+
 </x-app-layout>
