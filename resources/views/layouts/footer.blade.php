@@ -1,7 +1,9 @@
 <footer class="py-4 px-24 justify-center">
     <div class="flex justify-between py-20">
         <div class="flex flex-col items-center">
-            <x-logos.crest class="h-auto w-44 pb-5"></x-logos.crest>
+            <a href="./">
+                <x-logos.crest class="h-auto w-44 pb-5"></x-logos.crest>
+            </a>
         </div>
         <div class="flex gap-20">
             <div class="flex flex-col gap-y-5">
