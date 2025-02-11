@@ -22,7 +22,7 @@
     <hr class="border-black dark:border-gray-100 mx-32">
 
     <div class="my-20 md:flex flex-col items-center">
-        <h1 class="text-5xl tracking-wider mb-20">FEATURED GALLERY</h1>
+        <h1 class="text-5xl tracking-wider font-semibold mb-20">FEATURED GALLERY</h1>
         <div class="md:flex h-[75vh] w-full gap-10 justify-center">
             <img src="./storage/home_photos/collage-0.webp" alt="car">
             <div class="h-full flex gap-2">
@@ -41,7 +41,7 @@
     </div>
 
     <div class="py-20 bg-black dark:bg-gray-100 text-gray-100 dark:text-black text-center">
-        <h1 class="text-5xl pb-14">WHAT OUR CLIENTS SAY ABOUT US</h1>
+        <h1 class="text-5xl pb-14 font-semibold">WHAT OUR CLIENTS SAY ABOUT US</h1>
         <div class="flex justify-center">
             <x-review-container reviewerName="- Michael Rossi">
                 "The Vault's exotic car selection is unmatched!  Rare finds and knowledgeable staff make it a must-visit for any enthusiast."
