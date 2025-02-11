@@ -6,7 +6,7 @@
     <div class="hidden md:flex gap-10 ">
         <x-nav-link>Inventory</x-nav-link>
         <x-nav-link>Services</x-nav-link>
-        <x-nav-link>About</x-nav-link>
+        <x-nav-link href="{{route('about')}}">About</x-nav-link>
         <x-nav-link>Contact</x-nav-link>
     </div>
 </nav>

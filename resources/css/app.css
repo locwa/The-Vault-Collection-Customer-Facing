@@ -6,3 +6,19 @@
     object-fit: cover;
     object-position: 80% 80%;
 }
+
+.object-fit-cover{
+    object-fit: cover;
+}
+
+.object-position-y-100{
+    object-position: 80% 100%;
+}
+
+.object-position-y-60{
+    object-position: 80% 60%;
+}
+
+.object-position-y-25{
+    object-position: 80% 25%;
+}
