@@ -12,5 +12,6 @@
 <body class="bg-gray-100 dark:bg-[#0f0f0f] text-[#0f0f0f] dark:text-gray-100">
     @include('layouts.navigation')
     {{ $slot }}
+    @include('layouts.footer')
 </body>
 </html>
