@@ -20,5 +20,5 @@
             </div>
         </div>
     </div>
-    <p class="text-sm text-center">Copyright statement here</p>
+    <p class="text-sm text-center">statements here</p>
 </footer>
