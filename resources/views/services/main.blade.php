@@ -1,6 +1,6 @@
 <x-app-layout>
 
-    <x-slot:title>Services | CarzCo</x-slot:title>
+    <x-slot:title>Services</x-slot:title>
 
     <div class="flex justify-between items-center px-24 py-10">
         <h1 class="text-[5rem]">Services</h1>

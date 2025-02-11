@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot:title>
-        Modern, Vintage & Exotic Cars | The Vault
+        Modern, Vintage & Exotic Cars
     </x-slot:title>
 
     <x-image-carousel photoFileHeader="home_photos/hero-carousel-" :photoCount="5" carInfo="header_images">

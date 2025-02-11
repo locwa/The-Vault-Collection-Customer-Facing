@@ -1,5 +1,5 @@
 <x-app-layout>
-    <x-slot:title>About | The Vault</x-slot:title>
+    <x-slot:title>About</x-slot:title>
     <h1 class="text-[5rem] text-center py-10">About Us</h1>
 
     <hr class="border-black dark:border-gray-100 mx-32">

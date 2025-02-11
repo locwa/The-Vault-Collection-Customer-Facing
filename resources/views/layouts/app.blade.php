@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <title>{{ $title }}</title>
+    <title>{{ $title }} | The Vault</title>
 </head>
 <body class="bg-gray-100 dark:bg-[#0f0f0f] text-[#0f0f0f] dark:text-gray-100">
     @include('layouts.navigation')
