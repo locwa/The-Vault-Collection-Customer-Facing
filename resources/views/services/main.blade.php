@@ -16,7 +16,7 @@
                 <x-primary-button size="md">See More</x-primary-button>
             </div>
             <p class="py-5">Custom storage options for enthusiasts looking for personalized service.</p>
-            <div class="flex gap-x-5 gap-y-2">
+            <div class="flex gap-x-5 gap-y-2 flex-wrap">
                 <p class="text-sm font-light text-gray-400">24-Hour Security</p>
                 <p class="text-sm font-light text-gray-400">Regular Monitoring</p>
                 <p class="text-sm font-light text-gray-400">Scheduled Maintenance</p>
@@ -33,7 +33,7 @@
                 <x-primary-button size="md">See More</x-primary-button>
             </div>
             <p class="py-5">Our technicians and artisans are committed to automotive excellence.</p>
-            <div class="flex gap-x-5 gap-y-2">
+            <div class="flex gap-x-5 gap-y-2 flex-wrap">
                 <p class="text-sm font-light text-gray-400">Automotive Excellence</p>
                 <p class="text-sm font-light text-gray-400">Historical Accuracy</p>
                 <p class="text-sm font-light text-gray-400">Technical Mastery</p>
@@ -65,7 +65,7 @@
                 <x-primary-button size="md">See More</x-primary-button>
             </div>
             <p class="py-5">Building collection wish-lists, documenting provenance and determining value.</p>
-            <div class="flex gap-x-5 gap-y-2">
+            <div class="flex gap-x-5 gap-y-2 flex-wrap">
                 <p class="text-sm font-light text-gray-400">Tailored Wish-Lists</p>
                 <p class="text-sm font-light text-gray-400">Provenance Documentation</p>
                 <p class="text-sm font-light text-gray-400">Accurate Valuation</p>
