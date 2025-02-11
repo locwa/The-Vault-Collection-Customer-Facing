@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot:title>About | The Vault</x-slot:title>
-    <h1 class="text-5xl font-bold text-center py-10">About Us</h1>
+    <h1 class="text-[5rem] font-bold text-center py-10">About Us</h1>
 
     <hr class="border-black dark:border-gray-100 mx-32">
 

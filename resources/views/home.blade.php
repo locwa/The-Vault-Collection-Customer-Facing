@@ -22,7 +22,7 @@
     <hr class="border-black dark:border-gray-100 mx-32">
 
     <div class="my-20 md:flex flex-col items-center">
-        <h1 class="text-5xl tracking-wider font-semibold mb-20">FEATURED GALLERY</h1>
+        <h1 class="text-[4rem] tracking-wider font-semibold mb-20">FEATURED GALLERY</h1>
         <div class="md:flex h-[75vh] w-full gap-10 justify-center">
             <img src="./storage/home_photos/collage-0.webp" alt="car">
             <div class="h-full flex gap-2">
