@@ -16,6 +16,11 @@
                 <x-primary-button size="md">See More</x-primary-button>
             </div>
             <p class="py-5">Custom storage options for enthusiasts looking for personalized service.</p>
+            <div class="flex gap-x-5 gap-y-2">
+                <p class="text-sm font-light text-gray-400">24-Hour Security</p>
+                <p class="text-sm font-light text-gray-400">Regular Monitoring</p>
+                <p class="text-sm font-light text-gray-400">Scheduled Maintenance</p>
+            </div>
         </div>
         <img class="w-7/12 h-[70vh] object-fit-cover" src="./storage/service_photos/main-0.webp" alt="lamborghinis lined up">
     </div>
@@ -28,6 +33,11 @@
                 <x-primary-button size="md">See More</x-primary-button>
             </div>
             <p class="py-5">Our technicians and artisans are committed to automotive excellence.</p>
+            <div class="flex gap-x-5 gap-y-2">
+                <p class="text-sm font-light text-gray-400">Automotive Excellence</p>
+                <p class="text-sm font-light text-gray-400">Historical Accuracy</p>
+                <p class="text-sm font-light text-gray-400">Technical Mastery</p>
+            </div>
         </div>
     </div>
 
@@ -38,6 +48,11 @@
                 <x-primary-button size="md">See More</x-primary-button>
             </div>
             <p class="py-5">Our well-networked and well-informed team has access to the most exceptional examples in the world.</p>
+            <div class="flex gap-x-5 gap-y-2 flex-wrap">
+                <p class="text-sm font-light text-gray-400">Exclusive Inventory</p>
+                <p class="text-sm font-light text-gray-400">Knowledgeable Team</p>
+                <p class="text-sm font-light text-gray-400">Transparent Transactions</p>
+            </div>
         </div>
         <img class="w-7/12 h-[70vh] object-fit-cover" src="./storage/service_photos/main-2.webp" alt="lamborghinis lined up">
     </div>
@@ -50,6 +65,11 @@
                 <x-primary-button size="md">See More</x-primary-button>
             </div>
             <p class="py-5">Building collection wish-lists, documenting provenance and determining value.</p>
+            <div class="flex gap-x-5 gap-y-2">
+                <p class="text-sm font-light text-gray-400">Tailored Wish-Lists</p>
+                <p class="text-sm font-light text-gray-400">Provenance Documentation</p>
+                <p class="text-sm font-light text-gray-400">Accurate Valuation</p>
+            </div>
         </div>
     </div>
 
