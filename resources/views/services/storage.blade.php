@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="w-full flex justify-end pt-3">
-            <p class="w-8/12">
+            <p class="w-8/12 text-right">
                 The Vault is dedicated to offering storage solutions tailored specifically for vintage and supercar enthusiasts. Our bespoke storage services ensure that your prized possessions are kept in pristine condition, offering you peace of mind through unparalleled security and care.
             </p>
         </div>

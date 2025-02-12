@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="w-full flex justify-end pt-3">
-            <p class="w-8/12">
+            <p class="w-8/12 text-right">
                 Our technicians and artisans are committed to automotive excellence while maintaining originality and preserving the essence of each car.
             </p>
         </div>
