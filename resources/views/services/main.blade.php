@@ -32,7 +32,9 @@
         <div class="w-4/12">
             <div class="flex justify-between items-center">
                 <h1 class="text-3xl w-5/12 font-semibold">Restoration & Service</h1>
-                <x-primary-button size="md">See More</x-primary-button>
+                <a href="{{ route('restoration-service') }}">
+                    <x-primary-button size="md">See More</x-primary-button>
+                </a>
             </div>
             <p class="py-5">Our technicians and artisans are committed to automotive excellence.</p>
             <div class="flex gap-x-5 gap-y-2 flex-wrap">

@@ -18,3 +18,7 @@ Route::get('services', function () {
 Route::get('services/storage', function () {
     return view('services.storage');
 })->name('storage');
+
+Route::get('services/restoration-service', function () {
+    return view('services.restoration-service');
+})->name('restoration-service');
