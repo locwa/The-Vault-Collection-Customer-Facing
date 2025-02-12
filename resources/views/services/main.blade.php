@@ -49,7 +49,9 @@
         <div class="w-4/12">
             <div class="flex justify-between items-center">
                 <h1 class="text-3xl w-5/12 font-semibold">Sales</h1>
-                <x-primary-button size="md">See More</x-primary-button>
+                <a href="{{ route('sales') }}">
+                    <x-primary-button size="md">See More</x-primary-button>
+                </a>
             </div>
             <p class="py-5">Our well-networked and well-informed team has access to the most exceptional examples in the world.</p>
             <div class="flex gap-x-5 gap-y-2 flex-wrap">
