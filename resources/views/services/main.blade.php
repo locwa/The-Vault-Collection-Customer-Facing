@@ -68,7 +68,9 @@
         <div class="w-4/12">
             <div class="flex justify-between items-center">
                 <h1 class="text-3xl w-5/12 font-semibold">Collection Management</h1>
-                <x-primary-button size="md">See More</x-primary-button>
+                <a href="{{ route('collection-management') }}">
+                    <x-primary-button size="md">See More</x-primary-button>
+                </a>
             </div>
             <p class="py-5">Building collection wish-lists, documenting provenance and determining value.</p>
             <div class="flex gap-x-5 gap-y-2 flex-wrap">

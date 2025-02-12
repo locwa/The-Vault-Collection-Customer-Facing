@@ -26,3 +26,7 @@ Route::get('services/restoration-service', function () {
 Route::get('services/sales', function () {
     return view('services.sales');
 })->name('sales');
+
+Route::get('services/collection-management', function () {
+    return view('services.collection-management');
+})->name('collection-management');
