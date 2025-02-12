@@ -11,6 +11,10 @@
     object-fit: cover;
 }
 
+.object-fit-fill{
+    object-fit: fill;
+}
+
 .object-position-y-100{
     object-position: 80% 100%;
 }
