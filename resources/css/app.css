@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-#carPhoto{
-    object-fit: cover;
-    object-position: 80% 80%;
-}
-
 .object-fit-cover{
     object-fit: cover;
 }
@@ -21,6 +16,10 @@
 
 .object-position-y-60{
     object-position: 80% 60%;
+}
+
+.object-position-y-71{
+    object-position: 80% 71%;
 }
 
 .object-position-y-25{
