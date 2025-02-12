@@ -29,20 +29,20 @@
     function previousButton (photoHeader, imgCount){
         let image = document.getElementById('carPhoto');
         if (index > 0){
-            image.src = `./storage/${photoHeader}${index - 1}.{{$photoExtension}}`;
+            image.src = `./${photoHeader}${index - 1}.{{$photoExtension}}`;
             index--;
         } else if (index === 0){
-            image.src = `./storage/${photoHeader}${imgCount - 1}.{{$photoExtension}}`
+            image.src = `./${photoHeader}${imgCount - 1}.{{$photoExtension}}`
             index = imgCount - 1;
         }
     }
     function nextButton (photoHeader, imgCount){
         let image = document.getElementById('carPhoto');
         if (index !== (imgCount - 1)){
-            image.src = `./storage/${photoHeader}${index + 1}.{{$photoExtension}}`;
+            image.src = `./${photoHeader}${index + 1}.{{$photoExtension}}`;
             index++;
         } else if (index === (imgCount - 1)){
-            image.src = `./storage/${photoHeader}0.{{$photoExtension}}`;
+            image.src = `./${photoHeader}0.{{$photoExtension}}`;
             index = 0;
         }
     }
