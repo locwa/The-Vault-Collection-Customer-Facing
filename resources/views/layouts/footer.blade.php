@@ -10,7 +10,7 @@
                 <x-nav-link>Inventory</x-nav-link>
                 <x-nav-link href="{{route('services')}}">Services</x-nav-link>
                 <x-nav-link href="{{route('about')}}">About</x-nav-link>
-                <x-nav-link>Contact</x-nav-link>
+                <x-nav-link href="{{route('contact')}}">Contact</x-nav-link>
             </div>
             <div class="flex flex-col gap-y-4 font-light">
                 <x-nav-link href="./">YouTube</x-nav-link>
