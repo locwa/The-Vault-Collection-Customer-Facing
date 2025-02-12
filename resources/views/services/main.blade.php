@@ -13,7 +13,9 @@
         <div class="w-4/12">
             <div class="flex justify-between items-center">
                 <h1 class="text-3xl w-5/12 font-semibold">Storage</h1>
-                <x-primary-button size="md">See More</x-primary-button>
+                <a href="{{ route('storage') }}">
+                    <x-primary-button size="md">See More</x-primary-button>
+                </a>
             </div>
             <p class="py-5">Custom storage options for enthusiasts looking for personalized service.</p>
             <div class="flex gap-x-5 gap-y-2 flex-wrap">
@@ -22,11 +24,11 @@
                 <p class="text-sm font-light text-gray-400">Scheduled Maintenance</p>
             </div>
         </div>
-        <img class="w-7/12 h-[70vh] object-fit-cover" src="./storage/service_photos/main-0.webp" alt="lamborghinis lined up">
+        <img class="w-7/12 h-[70vh] object-fit-cover" src="./images/service_photos/main-0.webp" alt="lamborghinis lined up">
     </div>
 
     <div class="flex gap-10 mt-7 px-24 justify-between items-center">
-        <img class="w-7/12 h-[70vh] object-fit-cover" src="./storage/service_photos/main-1.webp" alt="car part">
+        <img class="w-7/12 h-[70vh] object-fit-cover" src="./images/service_photos/main-1.webp" alt="car part">
         <div class="w-4/12">
             <div class="flex justify-between items-center">
                 <h1 class="text-3xl w-5/12 font-semibold">Restoration & Service</h1>
@@ -54,11 +56,11 @@
                 <p class="text-sm font-light text-gray-400">Transparent Transactions</p>
             </div>
         </div>
-        <img class="w-7/12 h-[70vh] object-fit-cover" src="./storage/service_photos/main-2.webp" alt="lamborghinis lined up">
+        <img class="w-7/12 h-[70vh] object-fit-cover" src="./images/service_photos/main-2.webp" alt="lamborghinis lined up">
     </div>
 
     <div class="flex gap-10 mt-7 px-24 justify-between items-center">
-        <img class="w-7/12 h-[70vh] object-fit-cover" src="./storage/service_photos/main-3.webp" alt="car part">
+        <img class="w-7/12 h-[70vh] object-fit-cover" src="./images/service_photos/main-3.webp" alt="car part">
         <div class="w-4/12">
             <div class="flex justify-between items-center">
                 <h1 class="text-3xl w-5/12 font-semibold">Collection Management</h1>

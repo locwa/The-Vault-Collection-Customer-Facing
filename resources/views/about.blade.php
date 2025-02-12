@@ -6,7 +6,7 @@
 
     <div class="py-10 mx-32 text-lg flex justify-between items-center gap-10">
         <p class="w-2/5">At The Vault, our passion for exceptional automobiles fuels everything we do.  We believe that owning an exotic car is more than just a purchase; it's the culmination of a lifelong dream, a celebration of automotive artistry, and an investment in a legacy.  These machines represent the pinnacle of engineering, design, and performance, and we understand the profound connection our clients have with them.  It's this deep understanding that drives us to curate a collection of vehicles that truly embodies automotive excellence.</p>
-        <img class="w-4/5 max-h-80 object-fit-cover object-position-y-100" src="./storage/about_photos/about-photo-0.webp" alt="288 gto">
+        <img class="w-4/5 max-h-80 object-fit-cover object-position-y-100" src="./images/about_photos/about-photo-0.webp" alt="288 gto">
     </div>
 
     <hr class="border-black dark:border-gray-100 mx-32">
@@ -16,7 +16,7 @@
     <hr class="border-black dark:border-gray-100 mx-32">
 
     <div class="py-10 mx-32 text-lg flex justify-between items-center gap-10">
-        <img class="w-6/12 max-h-80 object-fit-cover object-position-y-25" src="./storage/about_photos/about-photo-1.webp" alt="288 gto">
+        <img class="w-6/12 max-h-80 object-fit-cover object-position-y-25" src="./images/about_photos/about-photo-1.webp" alt="288 gto">
         <p class="w-2/5">Our commitment to personalized service extends beyond the sale.  We strive to build long-term relationships with our clients, providing expert guidance and support throughout their ownership experience.  Whether you're a seasoned collector or a first-time exotic car owner, we're here to assist you every step of the way.  From finding the right car to arranging financing and even connecting you with reputable service providers, we're your trusted partner in the world of exotic automobiles.</p>
     </div>
 
@@ -24,7 +24,7 @@
 
     <div class="py-10 mx-32 text-lg flex justify-between items-center gap-10">
         <p class="w-2/5">We understand that acquiring an exotic car is a significant investment, and we treat every client with the respect and attention they deserve.  Our team is dedicated to providing a seamless and stress-free experience, from the initial consultation to the final delivery.  We believe that the process of buying an exotic car should be as enjoyable as driving it.</p>
-        <img class="w-4/5 max-h-96 object-fit-cover object-position-y-60" src="./storage/about_photos/about-photo-2.webp" alt="288 gto">
+        <img class="w-4/5 max-h-96 object-fit-cover object-position-y-60" src="./images/about_photos/about-photo-2.webp" alt="288 gto">
     </div>
 
     <hr class="border-black dark:border-gray-100 mx-32">

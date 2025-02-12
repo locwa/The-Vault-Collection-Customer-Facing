@@ -3,7 +3,7 @@
         Modern, Vintage & Exotic Cars
     </x-slot:title>
 
-    <x-image-carousel photoFileHeader="home_photos/hero-carousel-" :photoCount="5" carInfo="header_images">
+    <x-image-carousel photoFileHeader="images/home_photos/hero-carousel-" :photoCount="5" carInfo="header_images">
         <x-slot:heading>
             <h1 class="text-5xl/[3.5rem] max-w-[60vw]">The Vault. Purveyors of some of the most exclusive cars in the planet.</h1>
         </x-slot:heading>
@@ -24,16 +24,16 @@
     <div class="my-20 md:flex flex-col items-center">
         <h1 class="text-[4rem] tracking-wider font-semibold mb-20">FEATURED GALLERY</h1>
         <div class="md:flex h-[75vh] w-full gap-10 justify-center">
-            <img src="./storage/home_photos/collage-0.webp" alt="car">
+            <img src="./images/home_photos/collage-0.webp" alt="car">
             <div class="h-full flex gap-2">
                 <div class="flex gap-10 w-full">
                     <div class="h-[70vh] w-[30vw]">
-                        <img class="h-3/5 w-full mb-11 object-cover" src="./storage/home_photos/collage-1.webp" alt="car">
-                        <img class="h-2/5 w-full object-cover" src="./storage/home_photos/collage-2.webp" alt="car">
+                        <img class="h-3/5 w-full mb-11 object-cover" src="./images/home_photos/collage-1.webp" alt="car">
+                        <img class="h-2/5 w-full object-cover" src="./images/home_photos/collage-2.webp" alt="car">
                     </div>
                     <div class="h-[70vh]">
-                        <img class="h-3/5 w-full mb-11 object-cover" src="./storage/home_photos/collage-3.webp" alt="car">
-                        <img class="h-2/5 w-full object-cover" src="./storage/home_photos/collage-4.webp" alt="car">
+                        <img class="h-3/5 w-full mb-11 object-cover" src="./images/home_photos/collage-3.webp" alt="car">
+                        <img class="h-2/5 w-full object-cover" src="./images/home_photos/collage-4.webp" alt="car">
                     </div>
                 </div>
             </div>
