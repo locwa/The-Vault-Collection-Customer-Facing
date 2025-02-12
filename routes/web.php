@@ -10,6 +10,11 @@ Route::get('about', function () {
     return view('about');
 })->name('about');
 
+// Services Routes
 Route::get('services', function () {
     return view('services.main');
 })->name('services');
+
+Route::get('services/storage', function () {
+    return view('services.storage');
+})->name('storage');
