@@ -21,8 +21,8 @@
 
         <div class="pt-8 pb-20 flex gap-20 justify-between items-end">
             <div class="w-4/12">
-                <h1 class="text-3xl font-semibold">Welcome to The Vault's Restoration & Service</h1>
-                <p class="pt-6">The Vault Collection's team is steadfast in their commitment to historical accuracy, technical mastery and the thrill of the drive.</p>
+                <h1 class="text-3xl font-semibold">Why Choose Our Restoration & Service?</h1>
+                <p class="pt-6">We are committed to historical accuracy and technical excellence to ensures that your vintage supercar retains its original charm and performance. Here’s what you can expect from our restoration and service:</p>
             </div>
             <img class="w-7/12 h-[70vh] object-fit-cover" src="../images/service_photos/service-0.webp" alt="dsfasd">
         </div>
