@@ -6,7 +6,7 @@
 
     <div class="py-10 mx-32 text-lg flex justify-between items-center gap-10">
         <p class="w-2/5">At The Vault, our passion for exceptional automobiles fuels everything we do.  We believe that owning an exotic car is more than just a purchase; it's the culmination of a lifelong dream, a celebration of automotive artistry, and an investment in a legacy.  These machines represent the pinnacle of engineering, design, and performance, and we understand the profound connection our clients have with them.  It's this deep understanding that drives us to curate a collection of vehicles that truly embodies automotive excellence.</p>
-        <img class="w-4/5 max-h-80 object-fit-cover object-position-y-100" src="./images/about_photos/about-photo-0.webp" alt="288 gto">
+        <img class="w-4/5 max-h-80 object-fit-cover object-position-y-50" src="./images/about_photos/about-photo-0.png" alt="288 gto">
     </div>
 
     <hr class="border-black dark:border-gray-100 mx-32">
