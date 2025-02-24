@@ -4,7 +4,7 @@
         <x-logos.logo class="h-auto w-48"></x-logos.logo>
     </a>
     <div class="hidden md:flex gap-10 ">
-        <x-nav-link>Inventory</x-nav-link>
+        <x-nav-link href="{{route('inventory')}}">Inventory</x-nav-link>
         <x-nav-link href="{{route('services')}}">Services</x-nav-link>
         <x-nav-link href="{{route('about')}}">About</x-nav-link>
         <x-nav-link href="{{route('contact')}}">Contact</x-nav-link>

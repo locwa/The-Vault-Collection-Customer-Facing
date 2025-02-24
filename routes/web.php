@@ -14,6 +14,10 @@ Route::get('contact', function () {
     return view('contact');
 })->name('contact');
 
+Route::get('inventory', function () {
+    return view('inventory');
+})->name('inventory');
+
 // Services Routes
 Route::get('services', function () {
     return view('services.main');
