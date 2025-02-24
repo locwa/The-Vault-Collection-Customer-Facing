@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\InventoryController;
 
 Route::get('/', function () {
     return view('home');
@@ -14,9 +15,7 @@ Route::get('contact', function () {
     return view('contact');
 })->name('contact');
 
-Route::get('inventory', function () {
-    return view('inventory');
-})->name('inventory');
+Route::get('inventory', [InventoryController::class, 'viewAll'])->name('inventory');
 
 // Services Routes
 Route::get('services', function () {
