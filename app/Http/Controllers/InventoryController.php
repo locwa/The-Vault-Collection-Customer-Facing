@@ -10,7 +10,7 @@ class InventoryController extends Controller
     //
     public function viewAll(Request $request)
     {
-        $output = Inventory::all();
+        $output = Inventory::paginate(12);
         return view('inventory', ['inventory' => $output]);
     }
 }
