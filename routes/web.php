@@ -5,7 +5,7 @@ use App\Http\Controllers\InventoryController;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
 Route::get('about', function () {
     return view('about');
@@ -16,6 +16,8 @@ Route::get('contact', function () {
 })->name('contact');
 
 Route::get('inventory', [InventoryController::class, 'viewAll'])->name('inventory');
+
+Route::get('view-car/{id}', [InventoryController::class, 'viewCar'])->name('view-car');
 
 // Services Routes
 Route::get('services', function () {
