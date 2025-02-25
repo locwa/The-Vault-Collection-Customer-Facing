@@ -30,4 +30,8 @@ class InventoryController extends Controller
 
         return view('inventory', ['inventory' => $inventory, 'makes' => $makes, 'models' => $models]);
     }
+
+    public function viewCar(int $id){
+        return view('view-car', ['car' => Inventory::where('id', $id)->get()]);
+    }
 }
