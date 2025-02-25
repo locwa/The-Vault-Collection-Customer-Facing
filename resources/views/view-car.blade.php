@@ -8,7 +8,7 @@
         <x-slot:details class="flex flex-col justify-end">
             <div class="text-right">
                 <p class="text-right mb-1">{{ $car->value('mileage') }} miles</p>
-                <h3 class="text-2xl mb-1">{{ $car->value('is_poa') ? "Price on Application" : $car->value('price') }}</h3>
+                <h3 class="text-2xl mb-1">{{ $car->value('is_poa') ? "Price on Application" : numfmt_format_currency(numfmt_create('en_US', NumberFormatter::CURRENCY), $car->value('price'), "USD") }}</h3>
                 <a href="{{ route('contact') }}">
                     <x-primary-button>INQUIRE</x-primary-button>
                 </a>
