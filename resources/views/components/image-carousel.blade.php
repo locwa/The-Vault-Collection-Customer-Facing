@@ -5,8 +5,12 @@
     'photoExtension' => "png"
 ])
 
+@php
+    $isHome = request()->is('/');
+@endphp
+
 <div class="mb-5 flex flex-col items-center" id="imagesContainer">
-    <img id="carPhoto" class="h-[55vh] w-[90vw] flex justify-center object-fit-cover object-position-y-71" src="./{{ $photoFileHeader . '0.'. $photoExtension }}" alt="{{ $carInfo }}">
+    <img id="carPhoto" class="{{ $isHome ? 'h-[55vh]' : 'h-[65vh]' }} w-[90vw] flex justify-center object-fit-cover object-position-y-71" src="{{ $isHome ? './' : '../' }}{{ $photoFileHeader . '0.'. $photoExtension }}" alt="{{ $carInfo }}">
     <div class="flex my-6 justify-between items-start w-[90vw]">
         @isset($heading)
             {{ $heading }}
@@ -29,20 +33,20 @@
     function previousButton (photoHeader, imgCount){
         let image = document.getElementById('carPhoto');
         if (index > 0){
-            image.src = `./${photoHeader}${index - 1}.{{$photoExtension}}`;
+            image.src = `{{ $isHome ? './' : '../' }}${photoHeader}${index - 1}.{{$photoExtension}}`;
             index--;
         } else if (index === 0){
-            image.src = `./${photoHeader}${imgCount - 1}.{{$photoExtension}}`
+            image.src = `{{ $isHome ? './' : '../' }}${photoHeader}${imgCount - 1}.{{$photoExtension}}`
             index = imgCount - 1;
         }
     }
     function nextButton (photoHeader, imgCount){
         let image = document.getElementById('carPhoto');
         if (index !== (imgCount - 1)){
-            image.src = `./${photoHeader}${index + 1}.{{$photoExtension}}`;
+            image.src = `{{ $isHome ? './' : '../' }}${photoHeader}${index + 1}.{{$photoExtension}}`;
             index++;
         } else if (index === (imgCount - 1)){
-            image.src = `./${photoHeader}0.{{$photoExtension}}`;
+            image.src = `{{ $isHome ? './' : '../' }}${photoHeader}0.{{$photoExtension}}`;
             index = 0;
         }
     }
