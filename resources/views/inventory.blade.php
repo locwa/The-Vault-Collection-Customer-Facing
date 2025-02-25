@@ -21,7 +21,7 @@
                     </div>
                     <div class="flex flex-col mb-2">
                         <label for="id" class="text-[#0f0f0f] dark:text-gray-100 font-semibold">Year:</label>
-                        <input type="text" name="year" id="year" class="text-black p-2 rounded-[5px]" value="{{ request()->query('year') }}">
+                        <input type="text" name="year" id="year" class="text-black p-2 rounded-[5px]" value="{{ request()->query('year') }}" placeholder="1990">
                     </div>
                     <div class="flex flex-col mb-2">
                         <label for="make">Make</label>
