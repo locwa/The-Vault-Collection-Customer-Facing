@@ -45,7 +45,7 @@
                 </form>
             </div>
 
-            <div class="grow-4 flex flex-wrap flex-row w-full mb-8">
+            <div class="grow-4 flex flex-wrap flex-row w-full mb-12">
                     @foreach($inventory as $inv)
                         <a href="{{ route('view-car', $inv->id) }}" class="w-[22rem] h-[43vh] m-2 flex flex-col flex-wrap justify-between hover:bg-gray-300 dark:hover:bg-[#1f1f1f] rounded-[5px]">
                             <div>
@@ -65,7 +65,10 @@
             </div>
         </div>
 
-        {{ $inventory->links() }}
+        <div class="flex justify-center ">
+            {{ $inventory->links() }}
+        </div>
+
 
     </div>
 
