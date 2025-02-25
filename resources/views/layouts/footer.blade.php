@@ -7,7 +7,7 @@
         </div>
         <div class="flex gap-20">
             <div class="flex flex-col gap-y-5">
-                <x-nav-link>Inventory</x-nav-link>
+                <x-nav-link href="{{route('inventory')}}">Inventory</x-nav-link>
                 <x-nav-link href="{{route('services')}}">Services</x-nav-link>
                 <x-nav-link href="{{route('about')}}">About</x-nav-link>
                 <x-nav-link href="{{route('contact')}}">Contact</x-nav-link>
