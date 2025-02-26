@@ -45,7 +45,8 @@
                 </form>
             </div>
 
-            <div class="grow-4 flex flex-wrap flex-row w-full mb-12">
+            @if($inventory->total() > 0)
+                <div class="grow-4 flex flex-wrap flex-row w-full mb-12">
                     @foreach($inventory as $inv)
                         <a href="{{ route('view-car', $inv->id) }}" class="w-[22rem] h-[43vh] m-2 flex flex-col flex-wrap justify-between hover:bg-gray-300 dark:hover:bg-[#1f1f1f] rounded-[5px]">
                             <div>
@@ -61,8 +62,14 @@
                             </h4>
                         </a>
                     @endforeach
+                </div>
+            @else
+                <div class="flex flex-col w-full">
+                    <p class="text-xl dark:text-white text-center w-full">Sorry, It seems like that we don't have a {{ request()->query('year') . " " . request()->query('make') . " " . request()->query('model') . " in our inventory"  }}</p>
+                    <p class="text-md text-gray-500 text-center">Please try another combination</p>
+                </div>
+            @endif
 
-            </div>
         </div>
 
         <div class="flex justify-center ">
