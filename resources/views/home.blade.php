@@ -27,7 +27,7 @@
             <img src="./images/home_photos/collage-0.jpg" alt="car">
             <div class="h-full flex gap-2">
                 <div class="flex gap-10 w-full">
-                    <div class="h-[70vh] w-[30vw]">
+                    <div class="h-[70vh] w-[30vw] hidden xl:inline">
                         <img class="h-3/5 w-full mb-11 object-cover" src="./images/home_photos/collage-1.png" alt="car">
                         <img class="h-2/5 w-full object-cover" src="./images/home_photos/collage-2.webp" alt="car">
                     </div>
