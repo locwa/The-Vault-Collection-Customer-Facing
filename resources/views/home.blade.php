@@ -43,19 +43,19 @@
     <div class="px-5 py-20 h-[45rem] lg:h-[35rem] bg-black dark:bg-gray-100 text-gray-100 dark:text-black text-center">
         <h1 class="text-5xl pb-14 font-semibold">WHAT OUR CLIENTS SAY ABOUT US</h1>
         <div class="flex justify-center">
-            <x-review-container reviewerName="- Michael Rossi">
+            <x-review-container reviewerName="- Michael Rossi" class="border-x-[1px] border-black">
                 "The Vault's exotic car selection is unmatched!  Rare finds and knowledgeable staff make it a must-visit for any enthusiast."
             </x-review-container>
-            <x-review-container reviewerName="- Isabela Rodriguez">
+            <x-review-container reviewerName="- Isabela Rodriguez" class="border-r-[1px] border-black">
                 "Buying my McLaren from The Vault was a dream.  Exceptional service and a personalized experience made it truly special."
             </x-review-container>
-            <x-review-container reviewerName="- David Chen" class="hidden sm:flex">
+            <x-review-container reviewerName="- David Chen" class="hidden sm:flex border-r-[1px] border-black">
                 "The Vault's service department is top-notch.  Expert technicians and efficient repairs keep my Lamborghini running perfectly."
             </x-review-container>
             <x-review-container reviewerName="- Emily Carter" class="hidden md:flex">
                 "The Vault's showroom is stunning.  A true temple of automotive art, creating an unforgettable experience."
             </x-review-container>
-            <x-review-container reviewerName="- Robert Johnson" class="hidden lg:flex">
+            <x-review-container reviewerName="- Robert Johnson" class="hidden lg:flex border-x-[1px] border-black">
                 "I appreciated The Vault's transparency.  Honest pricing and a straightforward process made my purchase stress-free."
             </x-review-container>
         </div>
