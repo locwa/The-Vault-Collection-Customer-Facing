@@ -5,7 +5,7 @@
 
     <x-image-carousel photoFileHeader="images/home_photos/hero-carousel-" :photoCount="5" carInfo="header_images">
         <x-slot:heading>
-            <h1 class="text-5xl/[3.5rem] max-w-[60vw]">The Vault. Purveyors of some of the most exclusive cars in the planet.</h1>
+            <h1 class="text-4xl/[2.5rem] md:text-5xl/[3.5rem] max-w-[60vw]">The Vault. Purveyors of some of the most exclusive cars in the planet.</h1>
         </x-slot:heading>
         <x-slot:details>
             <p class="hidden md:block text-md font-light max-w-[15vw] text-right">Since our inception, we have sourced, procured, and sold over 500 of the most exclusive supercars and hypercars in the entire world.</p>
