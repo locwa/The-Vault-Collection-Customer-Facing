@@ -10,7 +10,7 @@
 @endphp
 
 <div class="mb-5 flex flex-col items-center" id="imagesContainer">
-    <img id="carPhoto" class="{{ $isHome ? 'h-[55vh]' : 'h-[65vh]' }} w-[90vw] flex justify-center object-fit-cover object-position-y-71" src="{{ $isHome ? './' : '../' }}{{ $photoFileHeader . '0.'. $photoExtension }}" alt="{{ $carInfo }}">
+    <img id="carPhoto" class="{{ $isHome ? 'h-[40vh] md:h-[55vh]' : 'md:h-[65vh]' }} w-[90vw] flex justify-center object-center object-fit-cover  md:object-position-y-71" src="{{ $isHome ? './' : '../' }}{{ $photoFileHeader . '0.'. $photoExtension }}" alt="{{ $carInfo }}">
     <div class="flex my-6 justify-between items-start w-[90vw]">
         @isset($heading)
             {{ $heading }}
