@@ -21,9 +21,9 @@
 
 </nav>
 
-<div class="flex flex-col sticky top-24 p-4 bg-gray-100 dark:bg-[#0f0f0f]">
-    <x-nav-link href="{{route('inventory')}}" textSize="2xl">Inventory</x-nav-link>
-    <x-nav-link href="{{route('services')}}">Services</x-nav-link>
-    <x-nav-link href="{{route('about')}}">About</x-nav-link>
-    <x-nav-link href="{{route('contact')}}">Contact</x-nav-link>
+<div class="hidden flex-col sticky top-24 p-4 gap-y-2 bg-gray-100 dark:bg-[#0f0f0f]">
+    <x-nav-link href="{{route('inventory')}}" textSize="3xl">Inventory</x-nav-link>
+    <x-nav-link href="{{route('services')}}" textSize="3xl">Services</x-nav-link>
+    <x-nav-link href="{{route('about')}}" textSize="3xl">About</x-nav-link>
+    <x-nav-link href="{{route('contact')}}" textSize="3xl">Contact</x-nav-link>
 </div>
