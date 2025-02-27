@@ -1,6 +1,6 @@
 <footer class="py-4 px-24 justify-center">
     <div class="flex justify-between py-20">
-        <div class="flex flex-col items-center">
+        <div class="flex-col items-center hidden md:flex">
             <a href="{{route('home')}}">
                 <x-logos.crest class="h-auto w-44 pb-5"></x-logos.crest>
             </a>
