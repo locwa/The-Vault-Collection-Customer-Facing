@@ -35,21 +35,21 @@
         </div>
         <div class="py-16 md:flex justify-between">
             <div class="w-full md:w-[25rem]">
-                <img class="max-w-[25rem] h-[20rem] object-fit-cover" src="../images/service_photos/service-1.webp" alt="photo">
+                <img class="max-w-[23rem] h-[20rem] object-fit-cover" src="../images/service_photos/service-1.webp" alt="photo">
                 <div class="py-5">
                     <h3 class="text-2xl font-semibold">Automotive Excellence</h3>
                     <p class="text-md font-light w-full">We focus on preserving the originality and essence of each vehicle, maintaining the highest standards of quality.</p>
                 </div>
             </div>
-            <div class="w-[25rem]">
-                <img class="w-[25rem] h-[20rem] object-fit-cover" src="../images/service_photos/service-2.webp" alt="photo">
+            <div class="md:w-[25rem]">
+                <img class="max-w-[23rem] h-[20rem] object-fit-cover" src="../images/service_photos/service-2.webp" alt="photo">
                 <div class="py-5">
                     <h3 class="text-2xl font-semibold">Historical Accuracy</h3>
                     <p class="text-md font-light w-full">Our team is dedicated to maintaining historical accuracy in every restoration project.</p>
                 </div>
             </div>
-            <div class="w-[25rem]">
-                <img class="w-[25rem] h-[20rem] object-fit-cover" src="../images/service_photos/service-3.webp" alt="photo">
+            <div class="md:w-[25rem]">
+                <img class="max-w-[25rem] h-[20rem] object-fit-cover" src="../images/service_photos/service-3.webp" alt="photo">
                 <div class="py-5">
                     <h3 class="text-2xl font-semibold">Technical Mastery</h3>
                     <p class="text-md font-light w-full">Our skilled technicians and artisans possess unmatched expertise in classic car restoration and service.</p>

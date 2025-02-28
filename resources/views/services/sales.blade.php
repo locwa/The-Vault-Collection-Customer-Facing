@@ -35,21 +35,21 @@
         </div>
         <div class="py-16 md:flex justify-between">
             <div class="w-full md:w-[25rem]">
-                <img class="w-[25rem] h-[20rem] object-fit-fill" src="../images/service_photos/sales-1.webp" alt="photo">
+                <img class="max-w-[23rem] h-[20rem] object-fit-fill" src="../images/service_photos/sales-1.webp" alt="photo">
                 <div class="py-5">
                     <h3 class="text-2xl font-semibold">Exclusive Inventory</h3>
                     <p class="text-md font-light w-full">We offer a curated selection of blue-chip vintage supercars, each with a unique story and exceptional value.</p>
                 </div>
             </div>
-            <div class="w-[25rem]">
-                <img class="w-[25rem] h-[20rem] object-fit-cover" src="../images/service_photos/sales-2.webp" alt="photo">
+            <div class="md:w-[25rem]">
+                <img class="max-w-[23rem] h-[20rem] object-fit-cover" src="../images/service_photos/sales-2.webp" alt="photo">
                 <div class="py-5">
                     <h3 class="text-2xl font-semibold">Knowledgeable Team</h3>
                     <p class="text-md font-light w-full">Our team’s extensive knowledge and network provide access to the rarest cars in the world.</p>
                 </div>
             </div>
-            <div class="w-[25rem]">
-                <img class="w-[25rem] h-[20rem] object-fit-cover" src="../images/service_photos/sales-3.webp" alt="photo">
+            <div class="md:w-[25rem]">
+                <img class="max-w-[23rem] h-[20rem] object-fit-cover" src="../images/service_photos/sales-3.webp" alt="photo">
                 <div class="py-5">
                     <h3 class="text-2xl font-semibold">Transparent Transactions</h3>
                     <p class="text-md font-light w-full">We ensure every transaction is transparent and reflects the true worth of each vehicle.</p>

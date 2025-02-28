@@ -34,22 +34,22 @@
             <p class="font-light text-xl md:w-6/12">Our storage solutions are designed to meet the unique needs of vintage and supercar owners. Here’s what you can expect from our services:</p>
         </div>
         <div class="py-16 md:flex justify-between">
-            <div class="w-full md:w-[25rem]">
-                <img class="max-w-[25rem] h-[20rem] object-fit-cover" src="../images/service_photos/storage-1.webp" alt="photo">
+            <div class="md:w-[25rem]">
+                <img class="max-w-[23rem] h-[20rem] object-fit-cover" src="../images/service_photos/storage-1.webp" alt="photo">
                 <div class="py-5">
                     <h3 class="text-2xl font-semibold">24-Hour Security</h3>
                     <p class="text-md font-light w-full">Our facility offers round-the-clock security to ensure your vehicle is always protected.</p>
                 </div>
             </div>
-            <div class="w-[25rem]">
+            <div class="md:w-[25rem]">
                 <img class="w-[25rem] h-[20rem] object-fit-cover" src="../images/service_photos/storage-2.webp" alt="photo">
                 <div class="py-5">
                     <h3 class="text-2xl font-semibold">Regular Monitoring</h3>
                     <p class="text-md font-light w-full">We provide continuous monitoring to maintain the condition of your car.</p>
                 </div>
             </div>
-            <div class="w-[25rem]">
-                <img class="w-[25rem] h-[20rem] object-fit-cover" src="../images/service_photos/storage-3.webp" alt="photo">
+            <div class="md:w-[25rem]">
+                <img class="max-w-[23rem] h-[20rem] object-fit-cover" src="../images/service_photos/storage-3.webp" alt="photo">
                 <div class="py-5">
                     <h3 class="text-2xl font-semibold">Scheduled Maintenance</h3>
                     <p class="text-md font-light w-full">Our team conducts regular maintenance to keep your vehicle in top shape.</p>

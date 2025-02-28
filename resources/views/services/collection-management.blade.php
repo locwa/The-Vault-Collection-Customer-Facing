@@ -4,7 +4,7 @@
     <div class="px-4 md:px-20 py-7">
         <div class="w-full">
             <div class="mb-5 md:mb-0 md:flex justify-between items-center">
-                <h1 class="text-[4rem] font-semibold">Collection Management</h1>
+                <h1 class="text-[3.6rem] md:text-[4rem] font-semibold">Collection Management</h1>
                 <x-primary-button size="md">Learn More</x-primary-button>
             </div>
             <div class="flex gap-x-5 gap-y-2 flex-wrap">
@@ -34,21 +34,21 @@
         </div>
         <div class="py-16 md:flex justify-between">
             <div class="w-full md:w-[25rem]">
-                <img class="max-w-[25rem] h-[20rem] object-fit-cover" src="../images/service_photos/collection-management-1.webp" alt="photo">
+                <img class="max-w-[23rem] h-[20rem] object-fit-cover" src="../images/service_photos/collection-management-1.webp" alt="photo">
                 <div class="py-5">
                     <h3 class="text-2xl font-semibold">Tailored Wish-Lists</h3>
                     <p class="text-md font-light w-full">We help you create detailed wish-lists tailored to your preferences, ensuring your collection includes the most sought-after vehicles.</p>
                 </div>
             </div>
-            <div class="w-[25rem]">
-                <img class="w-[25rem] h-[20rem] object-fit-cover" src="../images/service_photos/collection-management-2.webp" alt="photo">
+            <div class="md:w-[25rem]">
+                <img class="max-w-[23rem] h-[20rem] object-fit-cover" src="../images/service_photos/collection-management-2.webp" alt="photo">
                 <div class="py-5">
                     <h3 class="text-2xl font-semibold">Provenance Documentation</h3>
                     <p class="text-md font-light w-full">Our team meticulously documents the history and provenance of each vehicle, adding value and authenticity to your collection.</p>
                 </div>
             </div>
-            <div class="w-[25rem]">
-                <img class="w-[25rem] h-[20rem] object-fit-cover" src="../images/service_photos/collection-management-3.webp" alt="photo">
+            <div class="md:w-[25rem]">
+                <img class="max-w-[23rem] h-[20rem] object-fit-cover" src="../images/service_photos/collection-management-3.webp" alt="photo">
                 <div class="py-5">
                     <h3 class="text-2xl font-semibold">Accurate Valuation</h3>
                     <p class="text-md font-light w-full">We provide precise valuation services to help you understand the market value of your vehicles and make informed decisions.</p>
