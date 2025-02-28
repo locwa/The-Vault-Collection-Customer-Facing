@@ -48,7 +48,7 @@
             @if($inventory->total() > 0)
                 <div class="grow-4 flex flex-wrap flex-row w-full mb-12 md:justify-start justify-center">
                     @foreach($inventory as $inv)
-                        <a href="{{ route('view-car', $inv->id) }}" class="w-[22rem] h-[43rem] m-2 flex flex-col flex-wrap justify-between hover:bg-gray-300 dark:hover:bg-[#1f1f1f] rounded-[5px]">
+                        <a href="{{ route('view-car', $inv->id) }}" class="w-[22rem] sm:h-[33rem] md:h-[43rem] m-2 flex flex-col flex-wrap justify-between hover:bg-gray-300 dark:hover:bg-[#1f1f1f] rounded-[5px]">
                             <div>
                                 <img src="./storage/cars/{{$inv->photo_header}}0.jpg" alt="" srcset="">
                                 <h4 class="text-2xl my-2 px-2">{{sprintf("%u %s %s", $inv->year, $inv->make, $inv->model )}}</h4>
