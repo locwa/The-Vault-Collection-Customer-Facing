@@ -5,6 +5,11 @@
         <h1 class="text-[5rem]">Inventory</h1>
     </div>
 
+    <!-- Mobile Filters -->
+    <div class="sm:hidden h-12 bg-[#cfcfcf] dark:bg-[#2f2f2f] mx-6 mt-4 mb-6 rounded-[10px]">
+
+    </div>
+
     <div class="px-4 md:px-24 text-center">
         <div class="flex w-full gap-10">
             <div class="hidden md:flex flex-col grow-1 w-1/3 h-[50vh] justify-start bg-gray-300 dark:bg-[#1f1f1f] rounded-[10px] p-6 text-left">
