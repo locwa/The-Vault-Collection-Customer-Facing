@@ -1,4 +1,4 @@
-<footer class="py-4 px-24 justify-center">
+<footer class="py-4 px-20 md:px-24 justify-center">
     <div class="flex justify-between py-20">
         <div class="flex-col items-center hidden md:flex">
             <a href="{{route('home')}}">
