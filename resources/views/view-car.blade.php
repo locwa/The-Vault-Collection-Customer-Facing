@@ -16,9 +16,9 @@
         </x-slot:details>
     </x-image-carousel>
 
-    <hr class="border-black dark:border-gray-100 mx-16">
+    <hr class="border-black dark:border-gray-100 md:mx-16">
 
-    <div class="px-24 my-10">
+    <div class="px-4 md:px-24 my-10">
         <h1 class="text-5xl font-semibold">Description</h1>
         <p class="whitespace-pre-wrap mt-8 text-lg">{{ $car->value('description') }}</p>
     </div>
