@@ -3,11 +3,11 @@
 
     <!-- Header -->
     <h1 class="text-[4rem] px-10 pt-7">Contact Us</h1>
-    <p class="text-lg px-10 pt-2 w-5/12 font-light">Reach out to us for inquiries, collaborations, or to discuss your next luxury car acquisition. We’re here to assist and guide you.</p>
+    <p class="text-lg px-10 pt-2 md:w-5/12 font-light">Reach out to us for inquiries, collaborations, or to discuss your next luxury car acquisition. We’re here to assist and guide you.</p>
 
     <!-- Contact Form -->
     <form class="md:w-6/12" action="mailto:example@example.com" method="post" enctype="text/plain">
-        <div class="flex gap-10 px-10 pt-12 w-full">
+        <div class="md:flex gap-10 px-10 pt-12 w-full">
             <div class="flex flex-col">
                 <label for="name">Name</label>
                 <input class="py-3 pl-5 pr-16 mt-1 rounded-[20px] border-gray-400 solid border-[1px]" type="text" name="name" id="name" placeholder="Name" @required('name')>
@@ -18,7 +18,7 @@
             </div>
         </div>
 
-        <div class="flex gap-10 px-10 pt-10">
+        <div class="flex gap-10 px-10 md:pt-10">
             <div class="flex flex-col w-full">
                 <label for="inquiry">Inquiry Type</label>
                 <select class="py-3 pl-5 pr-1 max-w-[90%] mt-1 rounded-[20px] border-gray-400 solid border-[1px] dark:text-black" name="inquiry" id="inquiry">
@@ -32,10 +32,10 @@
             </div>
         </div>
 
-        <div class="flex gap-10 px-10 pt-12 w-full">
+        <div class="flex gap-10 px-10 md:pt-12 w-full">
             <div class="flex flex-col">
                 <label for="message">Message</label>
-                <textarea class="p-5 mt-2 rounded-[20px] dark:text-black" name="message" id="message" cols="68" rows="10"></textarea>
+                <textarea class="p-5 mt-2 w-[22rem] md:w-[45rem] rounded-[20px] dark:text-black" name="message" id="message" rows="10"></textarea>
             </div>
         </div>
 
